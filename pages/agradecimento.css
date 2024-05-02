@@ -33,3 +33,10 @@ body{
     border-radius: 30px;
 }
 
+.card h1{
+    color: var(--white);
+}
+
+.card p{
+    color: var(--light-grey);
+}
