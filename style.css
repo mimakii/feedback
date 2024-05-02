@@ -78,7 +78,10 @@ body{
 }
 
 
-.card > button{
+.card > a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
     width: 100%;
     padding: 13px;
     font-size: 15px;
@@ -93,7 +96,7 @@ body{
 }
 
 
-.card > button:hover{
+.card > a:hover{
     color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
